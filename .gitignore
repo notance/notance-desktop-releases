@@ -1,0 +1,29 @@
+# Release artifacts belong to GitHub Release assets, not git history.
+*.dmg
+*.zip
+*.pkg
+*.app
+*.blockmap
+latest*.yml
+latest*.yaml
+
+# Signing, secrets, and local environment files.
+*.p12
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+
+# Local/system noise.
+.DS_Store
+node_modules/
+dist/
+build/
+release/
+.Interne/
+.internal/
+
+# Private local release protocol and evidence.
+/_INTERNE/
